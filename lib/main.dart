@@ -1,5 +1,4 @@
-import 'package:flutter/material.dart';
-import 'package:learnblocflutter/screen/short_example.dart';
+import 'package:learnblocflutter/linker/app_linker.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,7 +10,6 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
@@ -22,4 +20,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
