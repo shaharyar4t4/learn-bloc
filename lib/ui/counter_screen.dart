@@ -13,10 +13,12 @@ class _CounterScreenState extends State<CounterScreen> {
     return Scaffold(
       appBar: AppBar(centerTitle: true, title: Text("Counter Screen")),
       body: Column(
+        mainAxisAlignment: MainAxisAlignment.center,
         children: [
           Text("0"),
           SizedBox(height: 20),
           Row(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: [
               ElevatedButton(onPressed: () {}, child: Text("increases")),
               SizedBox(width: 30),
