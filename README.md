@@ -14,3 +14,8 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+
+## Packages 
+1. Bloc
+2. Flutter Bloc
+3. Equatable (it helps to check the similarity between two object and compare the hascodes)
