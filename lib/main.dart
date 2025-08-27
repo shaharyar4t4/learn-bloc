@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:learnblocflutter/screen/short_example.dart';
 
 void main() {
   runApp(const MyApp());
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      // home: ,
+      home: ShortExample(),
     );
   }
 }

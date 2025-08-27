@@ -1,20 +1,37 @@
 import 'package:flutter/material.dart';
 
-class ShortExample extends StatelessWidget {
+class ShortExample extends StatefulWidget {
   const ShortExample({super.key});
 
   @override
+  State<ShortExample> createState() => _ShortExampleState();
+}
+
+class _ShortExampleState extends State<ShortExample> {
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text("Small Example"),
-      ),
+      appBar: AppBar(title: Text("Small Example")),
+      body: Column(children: [Container()]),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          Preson preson = Preson(name: "Ali", age: 19);
+          Preson preson1 = Preson(name: "Ali", age: 19);
+        /*the print fnc show the false value so it's means Dart 
+        always same permeter but strill show the false because the dart not 
+        consider the premeter value it consider only the object value*/
 
-      body: FloatingActionButton(onPressed: (){
-        
-      },
-      child: Icon(Icons.add),
+          print(preson == preson1);
+        },
+        child: Icon(Icons.add),
       ),
     );
   }
+}
+
+class Preson {
+  final String name;
+  final int age;
+
+  Preson({required this.name, required this.age});
 }
