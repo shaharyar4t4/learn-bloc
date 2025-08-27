@@ -17,6 +17,10 @@ class _ShortExampleState extends State<ShortExample> {
         onPressed: () {
           Preson preson = Preson(name: "Ali", age: 19);
           Preson preson1 = Preson(name: "Ali", age: 19);
+
+          // this current fnc show the hashcode which is totally different so that hash code is different.
+          print(preson.hashCode.toString());
+          print(preson1.hashCode.toString());
           /*the print fnc show the false value so it's means Dart 
         always same permeter but strill show the false because the dart not 
         consider the premeter value it consider only the object value*/

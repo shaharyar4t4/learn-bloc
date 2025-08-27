@@ -37,6 +37,7 @@ dependencies:
   fluttertoast: ^8.2.12
   http: ^1.5.0
   another_flushbar: ^1.12.30
+  equatable:
 
 dev_dependencies:
   flutter_test:
