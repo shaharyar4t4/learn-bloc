@@ -20,8 +20,10 @@ class _ShortExampleState extends State<ShortExample> {
         /*the print fnc show the false value so it's means Dart 
         always same permeter but strill show the false because the dart not 
         consider the premeter value it consider only the object value*/
-
           print(preson == preson1);
+
+        //the print fnc is show the true because the object is same         
+          print(preson == preson);
         },
         child: Icon(Icons.add),
       ),
